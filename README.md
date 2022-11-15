@@ -11,7 +11,7 @@ The purpose of this analysis was to determine how stocks are performing in any g
 Once the data was formatted to something more legible for the average person to read, it was made available to the rest of Steve's team. As we can see from the "All Stock Analysis" sheet, the rate of return in 2017 was much more successful than 2018. Nearly every stock tracked had a positive return in 2017. 
 ![2017](Resources/2017_stats.png)
 
-In 2018 the rate of return drastically changed. Nearly all stocks tracked showed a negative rate of return. There were two stocks however, that showed positive results both years running. Stock ticker "enph" and "run" showed returns between 81% - 84% in 2018.
+In 2018 the rate of return drastically changed. Nearly all stocks tracked showed a negative rate of return. There were two stocks however, that showed positive results both years running. Stock ticker "ENPH" and "RUN" showed returns between 81% - 84% in 2018.
 
 ![2018](Resources/2018_stats.png)
 
@@ -39,7 +39,9 @@ After some refactoring, the code looked much nicer, and ran faster!
 
 After reviewing the data, we could plainly see that there was a significant decline with most of the stocks evaluated. We could also see the two stocks that held strong, even during a decline year. Our best option to invest would be to choose "ENPH" and "RUN". Choosing either of these two will give us the greatest chance to make a profit based on analyzing the previous years side-by-side.
 
-When the first iteration of this VBA code was written, there were many errors, and lots of duplicate code. There were multiple "Sub procedure's" that made the script run much slower. The script was written very blocky and was not as easily legible if another developer looked at my code. After refactoring the code, everything ran much faster! All of the clunky chunks of code were cleaned up. The entire body of code was more legible to anyone who would need to review it. 
+### Should we refactor?
+
+When the first iteration of this VBA code was written, there were many errors, and lots of duplicate code. There were multiple "Sub procedure's" that made the script run much slower. The script was written very blocky and was not as easily legible if another developer looked at my code. After refactoring the code, everything ran much faster! All of the clunky chunks of code were cleaned up. The entire body of code was more legible to anyone who would need to review it. In summary, the refactored version of the code was the better version, and all codes should be refactored after they have been written, because there is always a way to make it better. Enjoy a copy of the refactored code. 
 ```
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
